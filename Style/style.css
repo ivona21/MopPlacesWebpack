@@ -1,0 +1,74 @@
+#header {
+    background-color: #00BCD4;
+    padding: 20px 0 20px 50px;
+}
+
+#header h1, #header #searchbox {
+    display: inline;
+}
+
+#header h1 {
+    margin-right: 300px;
+    color: #339;
+}
+
+#header input {
+    background-color: #E0FFFF;
+}
+
+#main {
+    padding: 50px;
+    background-color: #E0FFFF;
+    margin-left: 0;
+    width: 100%;
+}
+
+#results #nav {
+    margin-bottom: 40px;
+}
+
+#results #nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+}
+
+#nav ul li {
+    display: inline;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.light-blue li.active a,
+.light-blue li a:hover {
+    background-color: #00BCD4;
+}
+
+a i {
+    margin-right: 10px;
+}
+
+#map {
+    height: 400px;
+}
+
+#image img {
+    height: 100%;
+    width: 100%;
+}
+
+#image {
+    margin-top: 20px;
+}
+
+#card {
+    margin-bottom: 30px;
+    margin-right: 20px;
+    background-color: #BDD6EA;
+}
+
+#card:hover {
+    background-color: #135999;
+    color: #BDD6EA;
+    cursor: pointer;
+}

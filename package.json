@@ -1,0 +1,40 @@
+{
+  "name": "mop_places_webpack",
+  "version": "1.0.1",
+  "description": "searching and sorting places",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "google_maps_api",
+    "angular",
+    "webpack"
+  ],
+  "author": "Ivona Malekovic",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "jquery": "^2.1.4",
+    "less": "^2.5.3"
+  },
+  "devDependencies": {
+    "angular": "^1.4.8",
+    "angular-google-maps": "^2.2.1",
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.1",
+    "bootstrap-webpack": "0.0.5",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "google-maps": "^3.1.0",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "node-libs-browser": "^0.5.2",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.0"
+  }
+}

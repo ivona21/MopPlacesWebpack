@@ -1,0 +1,25 @@
+<div id="header">
+    <h1 id="title"> Places </h1>
+    <span id="searchBox">
+       <input type="search" placeholder="search places" data-ng-model="search.Name"/>
+    </span>
+</div>
+<div id="main" class="row">
+    <map-directive></map-directive>
+    <div id="results" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div id="nav">
+            <ul class="nav nav-pills light-blue">
+                <li ng-class="{active: ctrl.category == 'Food'}"><a id="firstButton"
+                                                                    ng-click="ctrl.changeCategory('Food')">Food </a>
+                </li>
+                <li ng-class="{active: ctrl.category == 'Clubs'}"><a ng-click="ctrl.changeCategory('Clubs')">Clubs </a>
+                </li>
+                <li ng-class="{active: ctrl.category == 'Bars'}"><a ng-click="ctrl.changeCategory('Bars')">Bars </a>
+                </li>
+            </ul>
+        </div>
+        <div class="cards" ng-repeat="place in ctrl.places | filter : search | sortByCategory : ctrl.category">
+            <card-directive></card-directive>
+        </div>
+    </div>
+</div>
